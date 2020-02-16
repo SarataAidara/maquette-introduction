@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('./polices/fontdroidserif/droidsans-webfont.woff2') format('woff2'),
+         url('./polices/fontdroidserif/droidsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('./polices/fontdroidserif/droidserif-regular-webfont.woff2') format('woff2'),
+         url('./polices/fontdroidserif/droidserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('./polices/fontdroidserif/oswald-bold-webfont.woff2') format('woff2'),
+         url('./polices/fontdroidserif/oswald-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    font-family: 'droid_serifregular', sans-serif, Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color:white;
+    color: grey;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+.entet{
+    background-image: url(maquette_introduction-assets/assets/misc/grille.png);
+   /*background: no-repeat;*/
+   height: 200px;   
+   display : flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.entet img{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 2%;
+    padding-left: 2%;
+    width: 50%;
+
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+
+nav hr{
+    margin-bottom: 15px;
+}
+
+nav li{
+    margin-bottom: 5px;
+}
+
+#hotel{
+    width: 10%;
+    margin-right: 5%;
+
+}
+
+#restaurants{
+    width: 14%;
+    margin-right: 5%;
+
+
+}
+
+#services{
+    width: 10%;
+    margin-right: 5%;
+
+
+}
+
+#activites{
+    width: 10%;
+    margin-right: 5%;
+
+
+}
+
+#plus{
+    width: 145%;
+
+}
+
+
+#hotel hr{
+    border: 4px solid rgb(247, 105, 0);
+    width: 110%;
+}
+
+#restaurants hr{
+    border: 4px solid rgb(252, 208, 74);
+    width: 115%;
+}
+
+#services hr{
+    border: 4px solid rgb(185, 212, 130);
+    width: 130%;
+}
+
+#activites hr{
+    border: 4px solid rgb(61, 146, 194);
+    width: 115%;
+}
+
+#plus hr{
+    border: 4px solid rgb(192, 120, 208);
+    width: 95%;
+}
+
+
+hr{
+    
+    border: 0.3px solid;
+    border-color:rgb(240,240,240);
+}
+
+
+#video{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#quadrillage1{
+    background-color: brown;
+    background-image: url(maquette_introduction-assets/assets/misc/grille.png);
+    /*background: no-repeat;*/
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   padding-top: 30px; 
+
+
+   
+}
+
+.encadrement{
+    border: 1px solid;
+    border-color:RGB(210, 210, 210); 
+    display: inline-block;
+    margin-left: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 270px;
+    height: 420px;
+}
+
+#golf{
+    color: rgb(231, 121, 45);
+
+}
+
+#Accrobranche{
+
+    color: rgb(231, 121, 45);
+
+}
+
+#FastFoods{
+
+    color: rgb(231, 121, 45);
+
+}
+
+#Commentaires{
+
+    color: rgb(231, 121, 45);
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.image img{
+    margin-left: 10px;
+    margin-top: -15px;
+    padding: 10px;
+    border:solid 1px;
+    box-shadow: 2px 2px 2px RGB(240, 240, 240);
+    border-color:RGB(240, 240, 240);
+}
+
+.date{
+    color: RGB(187, 194, 204);
+}
+
+.date p{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+.lireplus a{
+    color: RGB(154, 154, 154);
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+#global{
+    margin-left: 0px;
+    display:flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+#paragolf{
+    display: inline-block;
+    width: 220px;
+    height:200px;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+#paraaccrofoods{
+
+    width: 260px;
+    float: left;
+    padding-left: 30px;
+   
+
+}
+
+#paraaccrobranche{
+    padding-bottom: 10px;
+}
+
+
+#paracommentphotos{
+    display: inline-block;
+    width: 490px;
+    padding-left: 50px;
+    float: left;
+    /*margin-right: 700px;*/
+
+}
+#paracommentaires{
+    padding-bottom: 10px;
+}
+.text{
+    display: inline-block;
+    width: 220px;
+}
+
+#quadrillage2{
+    background-color: brown;
+    background-image: url(maquette_introduction-assets/assets/misc/grille.png);
+   height: 260px;
+   width: 100%;
+   margin-top: 10px;
+}
+
+#nouscontacter img{
+    vertical-align: middle;
+}
+
+#nouscontacter{
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+    width: 12%;
+    margin-top: 1%;
+}
+
+#nouscontacter a{
+    color: grey;
+}
+
+#test{
+    display: flex;
+    font-size: 13px;
+}
+
+#dernierbillet{
+    display: inline-block;
+    float: left;
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+#dernierbillet a{
+    color: grey;
+
+}
+
+#derniercommentaire{
+    display: inline-block;
+    float: left;
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#blablaland{
+    display: inline-block;
+    float: left;
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+
+#adresse{
+    margin-left: 15px;
+}
+
+.reseauxsociaux{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    float: right;
+    margin-right: 10%; 
+
+    margin-top: 5%
+}
+
+.reseauxsociaux p{
+    margin-left: 2%;
+
+}
+
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer{
+    width: 40%;
+    padding-left: 12%;
+    margin-top: 5%
+}
+
+#copyright{
+    
+    color: RGB(187, 194, 204);
+
+}
